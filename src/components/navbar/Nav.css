@@ -1,0 +1,11 @@
+
+
+
+
+.Navbaranch a{
+    color: rgb(24, 24, 255) !important;
+transition: all 0.3s ease;
+}
+.Navbaranch a:hover{
+ color: rgb(4, 252, 66) !important;
+}

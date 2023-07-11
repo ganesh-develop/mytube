@@ -1,0 +1,15 @@
+
+
+
+
+.funtuApp::-webkit-scrollbar{
+    width: 0.5rem;
+    background-color: #dad9d9;
+}
+.funtuApp::-webkit-scrollbar-thumb{
+    background-color: #1e0fee;
+}
+.funtuApp::-webkit-scrollbar-thumb:hover{
+   
+    background-color: #9dff00;
+}
