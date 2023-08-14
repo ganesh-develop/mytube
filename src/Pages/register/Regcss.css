@@ -1,14 +1,8 @@
 
-
-
 .Regform,.Loginform{
-    background: url(images/170249.jpg) no-repeat ;
-    background-size: cover;
+background: radial-gradient(circle, rgba(219,248,252,1) 50%, rgba(255,255,255,1) 75%, rgba(255,255,255,1) 95%);
+
 }
-
-
-
-
 .input-group  .form-control {
     display: block;
     width: 100%;
@@ -33,17 +27,6 @@
     box-shadow: none;
 }
 
-
-
-@media screen and (max-width:700px) {
-    .p-2 .reg-title,.p-2 .log-title{
-        color: rgb(255, 255, 255) !important;
-    }
-    .Regform,.Loginform{
-        background: url(images/img-Coco.jpg) no-repeat;
-       background-attachment: fixed;
-    }
-}
 @media screen and (min-width:700px) {
 
     .Regform,.Loginform{
@@ -52,9 +35,7 @@
         justify-content: center;
         flex-direction: column;
     }
-     .Loginform .bottom-login a{
-        color: rgb(255, 214, 30) !important;
-    }
+    
     .input-group {
         width: 600px !important;
         align-self: center;
