@@ -1,0 +1,62 @@
+
+
+
+.Regform,.Loginform{
+    background: url(images/170249.jpg) no-repeat ;
+    background-size: cover;
+}
+
+
+
+
+.input-group  .form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 200;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-radius: 0.375rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.input-group .form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: rgb(151, 221, 243);
+    outline: 0;
+    box-shadow: none;
+}
+
+
+
+@media screen and (max-width:700px) {
+    .p-2 .reg-title,.p-2 .log-title{
+        color: rgb(255, 255, 255) !important;
+    }
+    .Regform,.Loginform{
+        background: url(images/img-Coco.jpg) no-repeat;
+       background-attachment: fixed;
+    }
+}
+@media screen and (min-width:700px) {
+
+    .Regform,.Loginform{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+     .Loginform .bottom-login a{
+        color: rgb(255, 214, 30) !important;
+    }
+    .input-group {
+        width: 600px !important;
+        align-self: center;
+    }
+}
