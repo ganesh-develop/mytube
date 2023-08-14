@@ -92,7 +92,7 @@ const Loginpage = () => {
         <div className='Loginform'>
             <Form onSubmit={HandleLogin} >
                 <div className=' p-2'>
-                    <h2 className='log-title fw-bold text-center mb-5 text-light'>Login Form</h2>
+                    <h2 className='log-title fw-bold text-center mb-5 text-primary'>Login Form</h2>
                     {Loginifo && <h2 className='fw-bold text-center mt-3 mb-3 text-success'>{Loginifo}</h2>}
 
                     <InputGroup className="mb-3">
@@ -119,7 +119,7 @@ const Loginpage = () => {
                     </div>
 
                     <div className="bottom-login d-flex justify-content-end fw-bold gap-2 align-items-end">
-                        <Link to='/Registerpage' className='text-light' >Register Now</Link>
+                        <Link to='/Registerpage' className='text-primary' >Register Now</Link>
                         <button type="submit" className="btn btn-primary fw-bold " onClick={HandleLogin}> Login</button>
                     </div>
                 </div>
