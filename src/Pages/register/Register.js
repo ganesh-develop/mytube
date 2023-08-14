@@ -107,7 +107,7 @@ const Register = () => {
 
 
                     <div className=" d-flex justify-content-end fw-bold me-3">
-                        <Link className='mt-3 me-3  text-light ' to='/' >Login Now</Link>
+                        <Link className='mt-3 me-3  text-primary' to='/' >Login Now</Link>
                         <button type="submit" className="btn btn-primary fw-bold mb-3" onClick={HandleRegister}>Register</button>
                     </div>
                 </div>
