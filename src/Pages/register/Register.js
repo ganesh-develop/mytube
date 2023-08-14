@@ -58,7 +58,7 @@ const Register = () => {
     return (
         <div className='Regform'>
             <form onSubmit={HandleRegister} >
-                <h2 className='reg-title fw-bold text-center mb-5 text-light'>Registration Form</h2>
+                <h2 className='reg-title fw-bold text-center mb-5 text-primary '>Registration Form</h2>
                 <div className="p-2 Inputs-group">
                     <InputGroup className="mb-3">
                         <InputGroup.Text id="basic-username "><i className="bi bi-person-check-fill text-primary"></i></InputGroup.Text>
